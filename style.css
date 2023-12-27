@@ -1,0 +1,72 @@
+header{
+  position: relative;
+}
+
+/* aside{
+  background-image:"https://i.namu.wiki/i/RrgpIfROTihWtIPliWq4wE-asDYUfoSllr_Qh9GrejKcEYNExgCQo7sxvI6exnAgqXrVYAGgYL86mZ6jko9M2A.webp";
+} */
+#ta{/* 챔피언 픽창 및 챔피언 리스트 셀 */
+table-layout: fixed;
+}
+
+#readyButton{/* 준비 버튼 */
+position: absolute;
+bottom: 0;
+}
+body{
+ background-color: black; /* background-color: rgba(255, 255, 255, 0.8); */
+background-image: url('https://i.namu.wiki/i/Y7nu5TGed0ySrS57Y1pr0yLTmqcWBBfTxeLrdUetpnA_l1X9YvZ6HYUmzbxNC1YmIubzML4rigW1ABsPr-6AyuEbBCDwEaDA7RqWpQXa_y4Kiu7zOhgDz01LpeO_imFxjAhaWpxUSXo1Y9R4xbeW2Q.webp');
+background-size: cover;
+background-repeat: no-repeat;
+}
+#main{/* 투명도 조절 */
+background-color: rgba(0, 0, 0, 0.6);
+}
+#search{/* 챔피언 검색용 검색창 */
+float: right;
+display: flex;
+height: px;
+position: absolute;
+top: 0;
+right: 0;
+}
+#champList{/* 챔피언 아이콘 리스트 */
+position: relative;
+}
+.spells{
+
+  size: relative;
+  height: 100%;
+  width: 10%;
+  padding: 30px;
+
+}
+.spell_1{/* 스펠 컨테이너 */
+
+
+  margin: 0px;
+
+}
+#spellPic_1-1{/* 1번 스펠 이미지 */
+  size: relative;
+  float: left;
+  width: 25%;
+  height: 25%;
+  padding-bottom: 20px;
+
+  }
+#spellPic_1-2{/* 2번 스펠 이미지 */
+  size: relative;
+  width: 25%;
+  height: 25%;
+  float: left;
+
+}
+.ourChampContainer{/* 선택한 챔피언 컨테이너 */
+  display: flex;
+  flex-direction: row;
+}
+#infoOfUser img{
+  width: 55%;
+  height: 55%;
+}

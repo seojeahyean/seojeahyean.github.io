@@ -1,11 +1,126 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<link rel="stylesheet" href="style.css">
-	</head>
-	<body>
-		<div class="title">
-			<t>양재콩 바보</t>
-		</div>
-	</body>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>소환사의 협곡에 오신 것을 환영합니다</title>
+    <link rel="stylesheet" href="./style.css" media="all">
+
+</head>
+
+<body text ="white">
+<div id="main">
+ <header>
+       <table border="1"  cellpadding="10" width="100%" margin="0" >
+            <tr>
+                <td> 
+                  <div id="selectedBan-u"  ><b></b></div>
+                </td>
+
+                <td colspan ="2"  text align="center">
+             
+                  <div><b>챔피언을 선택해 주세요!</b></div>
+                  <div id="leftSec"><b>00</b></div>
+                </td>
+                <td>
+                  <div id="selectedBan-e"><b></b></div>
+                 </td>
+            </tr>
+        </table>
+        <br>
+        
+
+
+    </header>
+    <aside border="1">
+              <table id="ta" border="1"  cellpadding="10" width="100%" margin="0">
+            <tr>
+                <td> 
+                  <div id="us">
+                    
+                    <table border="1" >
+                      <tr>
+                        <td>
+                          <div id="ourChampContainer"><!-- 유저의 픽/닉네임/스펠 등을 모두 담은 컨테이너  -->
+                            <div id="spells">
+                              <div class ="spell_1">
+                                <img id = "spellPic_1-1" src ="https://post-phinf.pstatic.net/MjAyMDA5MjhfMTcz/MDAxNjAxMjg3MDYzODYz.uou9u06CoMXexhWlfV30hZkGjWGxX9vYNfXVew_g1XQg.CbFfIQ0cUaBUmZjvAvsAwKP7cCUPcAGkr8lMNYoNDq0g.JPEG/P20200318_112052500_11D59FE9-CF82-44D2-8D11-7D2403D90EE1.JPG?type=w800_q75"
+                              </div>
+                              <div class ="spell_1">
+                                <img id = "spellPic_1-2" src ="https://post-phinf.pstatic.net/MjAyMTA3MjhfMjQz/MDAxNjI3NDU1MjM0OTkx.MPXVtWWm-e70Roao2x5yQHkDCSTAYz4fNbNYddt4EIQg.yw74xezlOHYwcSv-egyQso-y9ltO7uS2ikh2aC57eJMg.PNG/img.png?type=w800_q75">
+                              </div>
+                          </div><!-- 선택한 스펠 표시 -->
+                            <div id="infoOfUser">
+                              <img src = "https://i.namu.wiki/i/nfm2CvD7d-ppgts03CbAdjEH8b4QXo51Cn6pzYsiGVbESEuabFj_ivnhkJstqF6ZYVOMa-GCHyGCNQz64Gf9NQ.webp">
+                              
+                            </div><!-- 닉네임, 라인, 챔피언, 챔피언 명 등 표기 -->
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>2번 아군</td>
+                      </tr>
+                      <tr>
+                        <td>3번 아군</td>
+                      </tr>
+                      <tr>
+                        <td>4번 아군</td>
+                      </tr>
+                      <tr>
+                        <td>5번 아군</td>
+                      </tr>
+                    </table>
+                  </div>
+                </td>
+
+                <td id ="champList" colspan ="2"  text align="center">
+                   <div id="search">
+                   
+                  <form>
+                     <select name = "dropdown">
+                        <option value = "name" selected>이름순 정렬</option>
+                        <option value = "master">숙련도순 정렬</option>
+                        <option value = "box">상자 획득 가능</option>
+                     </select>
+                  </form>
+                 
+                  <input type="text" value="챔피언 검색">
+                  
+                </div>
+            
+                  <div ><b>챔피언 리스트</b></div>
+                  <div>
+                  <input id="readyButton" type="button" value="준비 완료">
+                  
+                  </div>    
+                </td>
+                <td>
+                  <div id="enemy" float="left" >  
+                  <table border="1" >
+                      <tr>
+                        <td>1번 적 챔피언</td>
+                      </tr>
+                      <tr>
+                        <td>2번 적 챔피언</td>
+                      </tr>
+                      <tr>
+                        <td>3번 적 챔피언</td>
+                      </tr>
+                      <tr>
+                        <td>4번 적 챔피언</td>
+                      </tr>
+                      <tr>
+                        <td>5번 적 챔피언</td>
+                      </tr>
+                    </table></div>
+                 </td>
+            </tr>
+        </table>
+        
+    </aside>
+</div>
+   
+</body>
+
 </html>
